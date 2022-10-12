@@ -1,0 +1,210 @@
+/* tira o sublinhado dos links*/
+a {
+  text-decoration: none;
+}
+
+/*conf corpo da página*/
+body {
+  font-family: "Encode Sans", sans-serif;  
+  width: 1250px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  margin:auto;
+}
+
+/*título notícia principal*/
+h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: #c4160c;
+}
+
+/*título notícia secundária*/
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #303134;
+}
+
+/*conf do menu globo.com*/
+.top {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*conf caixa com todas as noticias*/
+.container-all-news {
+  display: flex;
+  justify-content: space-evenly;  
+  margin-top: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*linha horizontal*/
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #EBEDEF;
+}
+
+/*linha vertical*/
+.line-vertical {
+  display: flex;
+  flex-direction: column
+  height: 100%;
+  width: 1px;
+  background-color: #EBEDEF;
+}
+
+/*conf menu superior*/
+.menu-top {
+  height: 40px;
+  font-weight: 700;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*cores do menu superior*/
+.g1 {
+  color: #c3170c;
+}
+.oglobo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
+/*fim das cores do menu superior*/
+
+/*container com as notícias da metade direita*/
+.container-principal {
+  width: 50%;
+  height: 100%;
+}
+
+/*caixa com as notícias primária e secundária*/
+.news-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*organização noticias secundarias*/
+.minor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*organização caixas de notícia à esquerda*/
+.group1 {
+  display: flex;
+  justify-content: space-between;
+  height: 303px;
+}
+
+/*organização caizas de notícia à direita*/
+.group2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*altura específica para o segundo grupo de caixas à esquerda*/
+.height182 {
+  height: 182px;
+}
+
+/*organização dentro de cada caixa à esquerda*/
+.group1-box {
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*organização dentro de cada caixa à direita*/
+.group2-box {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*conf imagens à esquerda*/
+.img-left {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+/*conf imagens à direita*/
+.img-right {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+/*conf padrão para o título das caixas de noticia*/
+.box-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c4170c;
+}
+
+/*conf padrão para o texto em negrito das caixas de notica*/
+.box-resume {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2f3134;
+}
+
+/*conf padrão para o texto cinza das caixas de noticia*/
+.box-minor {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2f3134;
+}
+
+/* conf de cor de titulo para a primeira coluna da direia*/
+.color-green{
+  color: #16AE54
+}
+
+/* conf de cor de titulo para a segunda coluna da direia*/
+.color-orange{
+  color: #EC8006;
+}
